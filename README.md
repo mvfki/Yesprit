@@ -1,2 +1,2 @@
 # Yesprit
-Design primers for four fission yeast species
+A tool that design primers for four fission yeast species
