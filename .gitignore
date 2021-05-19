@@ -1,0 +1,5 @@
+build/*
+dist/*
+Yesprit.egg-info/*
+__pycache__/*
+Yesprit/__pycache__/*

@@ -4,10 +4,9 @@ sys.setrecursionlimit(1000000)
 block_cipher = None
 
 
-a = Analysis(['main.py'],
-             pathex=['C:\\Users\\wangx\\Desktop\\Debug'],
+a = Analysis(['cli.py'],
              binaries=[],
-             datas=[('data', 'data'), ('lib', 'lib'), ('resources','resources')],
+             datas=[('Yesprit/data', 'Yesprit/data'), ('Yesprit/lib', 'Yesprit/lib'), ('Yesprit/resources','Yesprit/resources')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
@@ -24,11 +23,11 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='YEPT',
+          name='Yesprit',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True , icon='data\\Yesprit.ico' )
+          console=True , icon='Yesprit/data/Yesprit.ico' )

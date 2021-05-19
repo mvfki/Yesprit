@@ -1,0 +1,126 @@
+BLASTP 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: japonicus.fasta
+           4,852 sequences; 2,271,437 total letters
+
+
+
+Query= O14038
+
+Length=134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+tr|B6K7M4|B6K7M4_SCHJY  Cornichon family protein OS=Schizosacchar...    182   8e-060
+tr|B6K200|B6K200_SCHJY  Cornichon family protein Erv14 OS=Schizos...    109   2e-031
+tr|B6JWK3|B6JWK3_SCHJY  Uncharacterized protein OS=Schizosaccharo...  25.0    2.9   
+tr|B6K8A1|B6K8A1_SCHJY  CMGC/DYRK/YAK protein kinase Ppk15 OS=Sch...  25.0    4.1   
+
+
+>tr|B6K7M4|B6K7M4_SCHJY Cornichon family protein OS=Schizosaccharomyces japonicus (strain 
+yFS275 / FY16936) OX=402676 GN=SJAG_04740 PE=4 SV=1
+Length=134
+
+ Score =   182 bits (462),  Expect = 8e-060, Method: Compositional matrix adjust.
+ Identities = 83/134 (62%), Positives = 107/134 (80%), Gaps = 0/134 (0%)
+
+Query  1    MVSAWIYFTSLMLTCANIMLQMYFTVMYSDLKDDFINPIDLSRKLNWYVLPEMGFQAFSA  60
+            M+  W+YFT ++ +C NI++QMYFTVMYSDLKDDFINPIDL +K+N +VLP+M   A  +
+Sbjct  1    MLLTWMYFTVMLFSCVNIIMQMYFTVMYSDLKDDFINPIDLCKKVNRFVLPDMLLHALGS  60
+
+Query  61   LLLLLSGAWITFLLNVPMLAWNAKMIMSNTHMHDSTTIFKDVSSRQKRSFFKLACFAVFF  120
+             +LL SGAW +FLLN P+LAWN  +I+   H+HDSTTIFKD+S+ QKRSFF+L C+ V F
+Sbjct  61   FILLFSGAWFSFLLNTPLLAWNVSLILGGMHLHDSTTIFKDLSAHQKRSFFRLFCYTVDF  120
+
+Query  121  FVYLFLFVSRLVDE  134
+            F+YLFLFV  LV+E
+Sbjct  121  FMYLFLFVQCLVNE  134
+
+
+>tr|B6K200|B6K200_SCHJY Cornichon family protein Erv14 OS=Schizosaccharomyces japonicus 
+(strain yFS275 / FY16936) OX=402676 GN=SJAG_02264 PE=4 SV=1
+Length=136
+
+ Score =   109 bits (273),  Expect = 2e-031, Method: Compositional matrix adjust.
+ Identities = 47/132 (36%), Positives = 87/132 (66%), Gaps = 0/132 (0%)
+
+Query  3    SAWIYFTSLMLTCANIMLQMYFTVMYSDLKDDFINPIDLSRKLNWYVLPEMGFQAFSALL  62
+            ++ +    ++L  AN+++Q++F +M+SDL+ D+INPIDL  KLN  V PE+   +   +L
+Sbjct  4    ASLVLILGILLNGANLLIQIFFIIMFSDLEMDYINPIDLCNKLNRLVAPELMSHSTMTIL  63
+
+Query  63   LLLSGAWITFLLNVPMLAWNAKMIMSNTHMHDSTTIFKDVSSRQKRSFFKLACFAVFFFV  122
+              L+G W+  +LN+P+L WN + +++ TH+ D+T IF+ ++  ++ +F K+A + + FFV
+Sbjct  64   FALTGQWMLTILNLPLLIWNVRSVINKTHILDATEIFRQLNRYKRDTFVKIAHYLILFFV  123
+
+Query  123  YLFLFVSRLVDE  134
+             L+  +  L+ E
+Sbjct  124  LLYCMIKSLIQE  135
+
+
+>tr|B6JWK3|B6JWK3_SCHJY Uncharacterized protein OS=Schizosaccharomyces japonicus (strain 
+yFS275 / FY16936) OX=402676 GN=SJAG_00780 PE=4 SV=2
+Length=174
+
+ Score = 25.0 bits (53),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 29/65 (45%), Gaps = 0/65 (0%)
+
+Query  63   LLLSGAWITFLLNVPMLAWNAKMIMSNTHMHDSTTIFKDVSSRQKRSFFKLACFAVFFFV  122
+            +L  GA    +L  P+ A N+   +     +D+ T+ K VSS   R+ F    F     V
+Sbjct  106  ILAGGAGEYCVLTRPLYANNSDYNVDVDFTNDTRTVDKVVSSSASRTNFVHYIFISVSAV  165
+
+Query  123  YLFLF  127
+             LF F
+Sbjct  166  LLFCF  170
+
+
+>tr|B6K8A1|B6K8A1_SCHJY CMGC/DYRK/YAK protein kinase Ppk15 OS=Schizosaccharomyces japonicus 
+(strain yFS275 / FY16936) OX=402676 GN=SJAG_04980 PE=4 
+SV=1
+Length=548
+
+ Score = 25.0 bits (53),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 22/35 (63%), Gaps = 2/35 (6%)
+
+Query  8    FTSLMLTCANIMLQMYFTVMYSDLKDDFINPIDLS  42
+            F S +LTCA+++ Q    +++ DLK + I   DLS
+Sbjct  245  FASQLLTCASVLKQA--RIIHCDLKPENILLEDLS  277
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.140    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 106006936
+
+
+  Database: japonicus.fasta
+    Posted date:  May 19, 2020  10:24 AM
+  Number of letters in database: 2,271,437
+  Number of sequences in database:  4,852
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

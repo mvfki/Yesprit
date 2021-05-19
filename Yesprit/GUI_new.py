@@ -2,10 +2,10 @@ from tkinter import Tk, Canvas, Button, Label, Frame, Text, StringVar, \
                     Radiobutton, Entry, Scrollbar, X, Y, LEFT, RIGHT, \
                     BOTTOM, END, YES
 from tkinter.ttk import Combobox
-from core import *
+from .core import *
 from webbrowser import open as webopen
 import os.path
-from modified_script import *
+from .modified_script import *
 
 this_dir, this_filename = os.path.split(__file__)
 _iconPath = os.path.join(this_dir, "data", "Yesprit.ico")
